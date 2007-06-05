@@ -1,0 +1,7 @@
+category: Graphics
+requires: cygwin
+external-source: libfpx
+sdesc: "FlashPIX graphics library (runtime)"
+ldesc: "This package is the Flashpix OpenSource Toolkit and is based on 
+source code obtained from the Digital Imaging Group Inc and the Eastman 
+Kodak Company."

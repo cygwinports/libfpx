@@ -1,0 +1,75 @@
+libfpx
+------------------------------------------
+This package is the Flashpix OpenSource Toolkit and is based on 
+source code obtained from the Digital Imaging Group Inc and the 
+Eastman Kodak Company.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+
+Build requirements:
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.i3a.org/
+
+Canonical download:
+  ftp://ftp.imagemagick.org/pub/ImageMagick/delegates/  
+
+-------------------------------------------
+
+Build instructions:
+  unpack libfpx-1.2.0.13-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libfpx-1.2.0.13-X.cygport all
+
+This will create:
+  /usr/src/libfpx-1.2.0.13-X-src.tar.bz2
+  /usr/src/libfpx-1.2.0.13-X.tar.bz2
+  /usr/src/libfpx1-1.2.0.13-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libfpx)
+  /usr/include/fpxlib.h
+  /usr/lib/libfpx.a
+  /usr/lib/libfpx.dll.a
+  /usr/lib/libfpx.la
+  /usr/share/doc/Cygwin/libfpx-1.2.0.13.README
+  /usr/share/doc/libfpx-1.2.0.13/AUTHORS
+  /usr/share/doc/libfpx-1.2.0.13/COPYING
+  /usr/share/doc/libfpx-1.2.0.13/ChangeLog
+  /usr/share/doc/libfpx-1.2.0.13/INSTALL
+  /usr/share/doc/libfpx-1.2.0.13/NEWS
+  /usr/share/doc/libfpx-1.2.0.13/README
+  /usr/share/doc/libfpx-1.2.0.13/fpx_api.pdf
+  /usr/share/doc/libfpx-1.2.0.13/readme.txt
+  /usr/share/doc/libfpx-1.2.0.13/ri_arch.pdf
+
+(libfpx1)
+  /usr/bin/cygfpx-1.dll
+
+------------------
+
+Port Notes:
+
+----- version 1.2.0.13-1 -----
+Version bump.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
