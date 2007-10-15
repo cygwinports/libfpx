@@ -1,0 +1,11 @@
+DESCRIPTION="FlashPIX image library"
+HOMEPAGE="http://www.i3a.org/"
+SRC_URI="ftp://ftp.imagemagick.org/pub/ImageMagick/delegates/${P}.tar.bz2"
+
+abi=1
+PKG_NAMES="${PN} ${PN}${abi}"
+PKG_HINTS="setup lib"
+PKG_CONTENTS[0]='usr/include/ usr/lib/ usr/share/'
+PKG_CONTENTS[1]="usr/bin/*-${abi}.dll"
+
+DOCS="doc/*.txt doc/*.pdf"
