@@ -1,5 +1,5 @@
 category: Graphics
-requires: cygwin libfpx1
+requires: libfpx1
 sdesc: "FlashPIX graphics library (development)"
 ldesc: "This package is the Flashpix OpenSource Toolkit and is based on 
 source code obtained from the Digital Imaging Group Inc and the Eastman 
